@@ -1,0 +1,128 @@
+.tools {
+    margin-bottom: 200px;
+}
+.tools__inner {
+    @include flex-starter;
+    gap: 130px;
+    padding-left: 27px;
+    padding-right: 30px;
+}
+.left {
+    margin-bottom: 318px;
+}
+.left__title {
+color: rgba(255, 255, 255, 0.90);
+
+font-family: 'Poppins';
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; 
+}
+.left__text {
+    color: rgba(255, 255, 255, 0.55);
+
+font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+width: 427px;
+margin-top: 30px;
+margin-bottom: 60px;
+}
+.left__btn {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6E30;
+
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+&:hover{
+    border-radius: 8px;
+    padding: 12px 36px;
+    text-decoration: none;
+    color: #FF6E30;
+    background-color: transparent;
+    border: solid 1px #FF6E30;
+}
+}
+.right {
+    margin-bottom: 1px;
+}
+.right__list {
+    @include flex-starter;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.right__item {
+    list-style: none;
+    width: 240px;
+    height: 250px;
+    transition: all 0.2 ease-in-out;
+
+    &:hover{
+        background-image: url(../../images/Rectangle\ 5\ \(1\).svg);
+        border-radius: 15px;
+        padding: 13px;
+        transform: scale(1.1);
+        width: 240px;
+        height: 250px;
+    }
+}
+.right-item__text {
+    color: rgba(255, 255, 255, 0.55);
+
+font-family: 'Poppins';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 245px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.right-item__link {
+    text-decoration: none;
+    color: #9d9d9d;
+
+    &:hover{
+        color: red;
+    }
+}
+.right-item__link {
+    text-decoration: none;
+    color: #9d9d9d;
+    
+    &:hover{
+        color: red;
+    }
+}
+.right-item__link-s {
+    color: rgba(255, 255, 255, 0.55);
+
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 40px;
+    position: absolute;
+    padding: 9px 25px;
+
+    &:hover{
+        border-radius: 8px;
+        padding: 9px 25px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #FF6E30;
+    }
+}

@@ -1,0 +1,79 @@
+.person {
+    margin-bottom: 250px;
+}
+.person__inner {
+    padding-left: 150px;
+    padding-right: 150px;
+    @include flex-starter;
+    gap: 57px;
+    position: relative;
+
+    &::before{
+        background-image: url(../../images/Group\ 1423.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        background-position: center;
+        background-size: 80px 100px;
+        width: 80px;
+        height: 100px;
+        content: "";
+        top: 190px;
+        left: -10px;
+        }
+
+
+        &::after{
+            background-image: url(../../images/Group\ 1433.svg);
+            background-repeat: no-repeat;
+            position: absolute;
+            background-position: center;
+            background-size: 170px 8px;
+            width: 170px;
+            height: 8px;
+            content: "";
+            top: 550px;
+            left: 480px;
+            }
+}
+.person__img {
+    width: 350px;
+    height: 450px;
+
+}
+.person__text {
+    color: rgba(255, 255, 255, 0.78);
+
+font-family: 'Poppins';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+letter-spacing: 0.21px;
+position: relative;
+
+&::before{
+background-image: url(../../images/“.png);
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+background-size: 100px;
+width: 100px;
+height: 100px;
+content: "";
+top: -50px;
+left: -50px;
+}
+
+&::after{
+    background-image: url(../../images/Group\ 1424.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-size: 80px 100px;
+    width: 80px;
+    height: 100px;
+    content: "";
+    top: 60px;
+    right: -100px;
+    }
+}

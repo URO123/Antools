@@ -1,0 +1,32 @@
+.brand {
+    margin-bottom: 200px;
+}
+.brand__inner {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 27px;
+    padding-right: 30px;
+    background-image: url(../../images/Rectangle\ 308.svg);
+    border-radius: 25px;
+}
+.brand__title {
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 55px;
+padding-left: 340px;
+}
+.brand__list {
+    @include flex-starter;
+    gap: 107px;
+}
+.bran__item {
+    list-style: none;
+}
+.brand-item__link {
+    text-decoration: none;
+}

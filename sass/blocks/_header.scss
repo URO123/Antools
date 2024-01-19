@@ -1,0 +1,90 @@
+.site-header {
+    padding: 26px 1px;
+}
+.site-header__inner {
+    @include flex-starter;
+}
+.site-header__link {
+    text-decoration: none;
+}
+.site-header__logo {
+    width: 140px;
+    height: 40px;
+}
+.header__list {
+    margin-left: 185px;
+    margin-right: 155px;
+    @include flex-starter;
+    gap: 42px;
+}
+.header__item {
+    list-style: none;
+}
+.header-item__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header__list2 {
+    @include flex-starter;
+    list-style: none;
+    gap: 40px;
+}
+.header__item2 {
+    list-style: none;
+}
+.header-item__link2 {
+    text-decoration: none;
+    color: #fff;
+        color: rgba(255, 255, 255, 0.55);
+
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn {
+    border-radius: 8px;
+    padding: 12px 28px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6E30;
+
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+&:hover{
+    border-radius: 8px;
+    padding: 12px 28px;
+    text-decoration: none;
+    color: #FF6E30;
+    background-color: transparent;
+    border: solid 1px #FF6E30;
+}
+}
+.categoria{
+    list-style: none;
+    position: relative;
+
+    &::before{
+        background-image: url(../../images/chevron-down.svg);
+        background-repeat: no-repeat;
+        background-size: 18px;
+        width: 18px;
+        height: 18px;
+        content: "";
+        background-position: center;
+        position: absolute;
+        top: 5px;
+        right: -20px;
+    }
+}
